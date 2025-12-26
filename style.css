@@ -34,9 +34,19 @@ body {
     color: #94a3b8;
 }
 
-.contact {
-    margin-top: 20px;
+.contact a {
+    display: inline-block;
+    margin: 8px 12px;
+    color: #e5e7eb; /* light gray / almost white */
+    text-decoration: none;
+    font-weight: 500;
 }
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
 
 .contact a {
     display: inline-block;
@@ -46,9 +56,6 @@ body {
     font-weight: 500;
 }
 
-.contact a:hover {
-    text-decoration: underline;
-}
 
 /* SECTIONS */
 .section {
