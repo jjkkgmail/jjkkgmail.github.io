@@ -37,3 +37,12 @@ footer {
     background: #111827;
     color: white;
 }
+
+.highlight {
+    margin-top: 20px;
+    padding: 18px 22px;
+    background: #f0f9ff;
+    border-left: 4px solid #38bdf8;
+    border-radius: 6px;
+    font-size: 1.05rem;
+}
