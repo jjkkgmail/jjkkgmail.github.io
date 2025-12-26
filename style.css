@@ -100,43 +100,49 @@ body {
     font-size: 0.9rem;
 }
 
-/* PROJECTS */
-.projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px;
+/* WORK LIST (VERTICAL STACK) */
+.work-list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
 }
 
-.project {
+.work-item {
     background: #ffffff;
-    padding: 28px;
-    border-radius: 12px;
-    box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 14px 34px rgba(0,0,0,0.06);
 }
 
-.project h3 {
+.work-item h3 {
     margin-top: 0;
+    margin-bottom: 12px;
 }
 
-/* PROJECT LIST INSIDE CARD */
-.project ul {
-    padding-left: 18px;
+.work-desc {
+    margin-bottom: 14px;
+}
+
+.work-points {
+    padding-left: 20px;
     margin: 16px 0;
 }
 
-.project ul li {
+.work-points li {
     margin-bottom: 10px;
 }
 
+/* TAGS (reuse existing styles if present) */
 .tags span {
     display: inline-block;
     margin: 6px 6px 0 0;
     background: #dbeafe;
     color: #1e40af;
-    padding: 5px 10px;
-    border-radius: 14px;
+    padding: 6px 12px;
+    border-radius: 16px;
     font-size: 0.8rem;
 }
+
 
 /* COMPANIES */
 .companies {
